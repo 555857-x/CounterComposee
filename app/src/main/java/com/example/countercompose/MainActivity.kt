@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             CounterComposeTheme {
-                // State halaman aktif: "counter" atau "datadiri"
+                // State halaman aktif: counter atau datadiri
                 var currentScreen by rememberSaveable { mutableStateOf("counter") }
 
                 // Tombol back HP di DataDiriScreen -> kembali ke Counter
